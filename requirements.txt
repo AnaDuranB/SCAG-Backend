@@ -4,4 +4,3 @@ torch
 transformers
 pydantic
 nltk
-question-generator
