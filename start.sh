@@ -1,2 +1,3 @@
-#!/bin/bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+# startup.sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+export PATH="$HOME/.cargo/bin:$PATH"
