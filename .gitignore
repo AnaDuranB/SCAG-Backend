@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Checkpoints
+#checkpoints/
+
+# Ignore runtime files
+*.pid
+*.gz
+*.bak
+*.swp
+*.tmp
+*.orig
+*.DS_Store
+
+# Ignore configuration or sensitive files
+*.env
+*.secret
+.env.local
+.env.*
+
+# Azure specific
+*.log
+deployment_logs/
